@@ -24,7 +24,7 @@ module.exports = merge(common, {
       { reload: false }
     ),
     new WebpackNotifierPlugin({
-      title: 'VanillaJS Starter Project',
+      title: 'Typescript Starter Project',
     }),
   ],
 });

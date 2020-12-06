@@ -1,13 +1,24 @@
 {
     "compilerOptions": {
         "outDir": "./dist",
-        "sourceMap": false,
-        "noImplicitAny": true,
-        "module": "ES6",
-        "target": "ES5",
+        "sourceMap": true,
+        "noImplicitAny": false,
+        "module": "es6",
+        "target": "es5",
         "jsx": "react",
         "allowJs": true,
         "allowSyntheticDefaultImports": true,
-        "esModuleInterop": true
-    }
+        "esModuleInterop": true,
+        "declaration": true,
+        "emitDeclarationOnly": false,
+        "isolatedModules": false,
+        "noEmit": false,
+        "moduleResolution": "node",
+        "baseUrl": "./",
+        "paths": {
+        }
+
+    },
+    "include": ["./src/**/*", "./tests/**/*"],
+    "files": ["./src/index.ts"],
 }

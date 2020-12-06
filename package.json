@@ -4,7 +4,7 @@
   "description": "",
   "private": true,
   "scripts": {
-    "test": "mocha ./src/test/test.js",
+    "test": "mocha ./tests/test.js",
     "watch": "webpack --watch --config webpack.dev.js",
     "start": "webpack serve --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js"
@@ -14,7 +14,9 @@
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.12.9",
+    "@babel/plugin-transform-typescript": "^7.12.1",
     "@babel/preset-env": "^7.12.7",
+    "@babel/preset-typescript": "^7.12.7",
     "@types/babel__core": "^7.1.12",
     "@types/babel__preset-env": "^7.9.1",
     "@types/eslint": "^7.2.6",
